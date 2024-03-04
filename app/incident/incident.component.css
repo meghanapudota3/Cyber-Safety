@@ -1,0 +1,29 @@
+#left-column, #right-column {
+    width: 50%;
+    float: left;
+    height: 200vh; /* You can adjust this value as per your requirement */
+    box-sizing: border-box;
+    padding: 100px;
+  }
+ 
+
+#left-column {
+    background-color:lightpink;
+ 
+
+}
+
+#right-column {
+    background-color:lightskyblue;
+}
+h2{
+     text-align: center;
+     color:red;
+}
+b{
+    color: black;
+}
+li{
+    text-align:justify;
+  
+}

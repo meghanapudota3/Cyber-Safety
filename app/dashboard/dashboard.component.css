@@ -1,0 +1,64 @@
+/* Set the height and background color of the chat container */
+.chat {
+  height: 100vh;
+  background-color: #f8f9fa;
+}
+
+/* Center the chat content horizontally */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* Style the chat card */
+.card {
+  width: 400px;
+}
+
+/* Style the chat list */
+.list-group-item {
+  padding: 0.75rem 1.25rem;
+  border: none;
+}
+
+/* Style the chat input row */
+.chat-send-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+
+}
+
+/* Style the user and message input fields */
+#input-user,
+#input-message {
+  width: 100%;
+   
+ }
+
+/* Style the send button */
+.btn-primary {
+  width: 100%;
+}
+.navbar-toggler {
+  background: transparent; /* Sets the background color to transparent */
+  border: none; /* Removes the default border */
+  cursor: pointer; /* Adds a pointer cursor when hovering over the button */
+  padding: 0; /* Removes any default padding */
+}
+
+.navbar-toggler-icon {
+  display: inline-block; /* Displays the icon as an inline-block element */
+  width: 1.5rem; /* Adjust the width as needed */
+  height: 1.5rem; /* Adjust the height as needed */
+  background-position: center; /* Positions the icon in the center */
+  background-repeat: no-repeat; /* Prevents the icon from repeating */
+  background-size: cover; /* Adjusts the icon size to cover the element */
+}
+
+.navbar-toggler:hover .navbar-toggler-icon {
+  background-color: #ccc; /* Changes the background color of the icon on hover */
+  border-radius: 50%; /* Adds a border-radius to create a circular shape */
+}

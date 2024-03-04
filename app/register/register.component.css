@@ -1,0 +1,21 @@
+.form-group {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    
+  }
+    .jumbotron {
+      background-color: rgba(139, 49, 53, 0.7);
+      padding: 20px;
+      margin: 2rem auto;
+      max-width: 500px;
+      border-radius:20px;
+      
+    }
+    h2{
+      text-align: center;
+      font-style: oblique;
+    }
+     
